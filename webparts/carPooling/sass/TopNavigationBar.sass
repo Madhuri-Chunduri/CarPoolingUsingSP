@@ -1,0 +1,92 @@
+.topNavigationBar 
+    ul
+        padding-top: 1%
+        display: flex
+
+    li
+        list-style: none
+        float : left
+
+    li:last-child
+        float : right
+
+.logoIcon
+    margin-left: 2%
+    float : left
+
+.activeUser
+    width : 330px
+
+.activeUser:hover
+    .actionsPopUp
+        display : block
+
+.activeUserName
+    font-family : "Helvetica"
+    padding : 0
+    display : inline-block
+    max-width : fit-content
+    padding-right : 5%
+    font-size: 25px
+    font-weight: bolder
+    color : black
+
+.activeUserImage
+    height: 50px
+    width : 50px
+    color : white
+    font-size: 20px
+    display : inline-block
+    background-color: blueviolet
+    border : none
+    outline: none
+    cursor : pointer
+    margin-top : 5px
+    border-radius: 50%
+
+.actionsPopUp
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+    border-radius : 5px
+    position: absolute
+    background: white
+    color: black
+    width: 200px
+    display : none
+    margin : 0
+    text-align: center
+    z-index: 1
+
+    a
+        text-decoration: none
+        margin : 0
+
+    a:active
+        background-color: rgb(118,83,252)
+        color : white
+
+    a:hover
+        background-color: rgb(118,83,252)
+
+    li:hover
+        background-color: rgb(118,83,252)
+
+.popUpButton
+    display : inline-block
+    background-color: white
+    color :  rgb(166,168,169)
+    font-family: 'Open Sans',sans-serif
+    cursor : pointer
+    font-size: 17px
+    width : 200px
+    margin : 0
+    padding : 10% 0
+    border : none
+    outline: none
+
+.popUpButton:hover
+    background-color: rgb(118,83,252)
+
+.activeListElement
+    background-color: rgb(118,83,252)!important
+    color : white
+
